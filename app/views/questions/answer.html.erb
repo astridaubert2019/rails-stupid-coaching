@@ -1,0 +1,17 @@
+<h1>Stupid Coaching</h1>
+
+<div class="chatbox">
+  <%= params[:answer] %>
+  <br>
+  <%= "- You" %>
+  <p></p>
+</div>
+<div class="chatbox">
+  <%= @answer %>
+  <br>
+  <%= "- Your coach" %>
+  <p></p>
+</div>
+<div class="new-question">
+  <%= link_to "Ask a new question", ask_path %>
+</div>
